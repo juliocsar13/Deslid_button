@@ -1,0 +1,88 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.angel.appllevame_usuario.MapActivity">
+    <!--android:background="@drawable/desing_button_tres"-->
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="bottom|center"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="65dp">
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="Llamar Taxi"
+            android:id="@+id/btnCallTaxi"
+            android:onClick="sendRequest"
+            android:background="@drawable/asul" />
+        <Button
+
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:text="Cancelar"
+            android:background="@drawable/rojo"
+            android:layout_marginLeft="5dp" />
+    </LinearLayout>
+
+    <SlidingDrawer
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:content="@+id/content"
+        android:handle="@+id/handle"
+        android:id="@+id/slidingDrawer"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <LinearLayout
+            android:id="@+id/content"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="250dp"
+                android:layout_gravity="center"
+                android:background="@drawable/ic_whats_hot"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Escribir algo"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/handle"
+            android:orientation="horizontal"
+            android:background="#fffff48c"
+            android:layout_width="fill_parent"
+            android:layout_height="60dp">
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_gravity="center"
+                android:background="@drawable/ic_whats_hot"
+                android:id="@+id/imageView"
+                android:layout_marginLeft="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="New Text"
+                android:textSize="18sp"
+                android:layout_gravity="center"
+                android:id="@+id/textView"
+                android:layout_marginLeft="20dp" />
+
+        </LinearLayout>
+    </SlidingDrawer>
+</RelativeLayout>
