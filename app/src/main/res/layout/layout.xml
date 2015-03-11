@@ -46,7 +46,8 @@
             android:id="@+id/content"
             android:layout_width="fill_parent"
             android:layout_height="fill_parent"
-            android:orientation="vertical">
+            android:orientation="vertical"
+            android:background="#ff747474">
 
             <ImageView
                 android:layout_width="fill_parent"
@@ -62,7 +63,7 @@
         <LinearLayout
             android:id="@+id/handle"
             android:orientation="horizontal"
-            android:background="#fffff48c"
+            android:background="@drawable/button_layout_principal"
             android:layout_width="fill_parent"
             android:layout_height="60dp">
 
@@ -78,6 +79,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="New Text"
+                android:textColor="@color/abc_primary_text_material_light"
                 android:textSize="18sp"
                 android:layout_gravity="center"
                 android:id="@+id/textView"

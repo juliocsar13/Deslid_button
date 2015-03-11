@@ -9,21 +9,21 @@ import android.widget.EditText;
 
 
 public class MainActivity extends ActionBarActivity {
-    protected EditText username;
-    protected EditText juliocsar;
+/*    protected EditText username;
+    protected EditText juliocsar;*/
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.layout);
 
-        username = (EditText) findViewById(R.id.usuario);
+  /*      username = (EditText) findViewById(R.id.usuario);
         Typeface fontusuario = Typeface.createFromAsset(getAssets(), "Balkeno.ttf");
         username.setTypeface(fontusuario);
 
         juliocsar = (EditText) findViewById(R.id.julio);
         Typeface fontjuliocsar = Typeface.createFromAsset(getAssets(), "Balkeno.ttf");
         juliocsar.setTypeface(fontjuliocsar);
-
+*/
     }
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -43,7 +43,6 @@ public class MainActivity extends ActionBarActivity {
         if (id == R.id.action_settings) {
             return true;
         }
-
         return super.onOptionsItemSelected(item);
     }
 }
