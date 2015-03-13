@@ -1,36 +1,24 @@
 package com.example.lenovo.deslid_button;
 
-
-import android.app.Activity;
-import android.graphics.Typeface;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
-import android.widget.EditText;
 
 
-public class MainActivity extends Activity {
-/*    protected EditText username;
-    protected EditText juliocsar;*/
+public class MainActivity2 extends ActionBarActivity {
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_activity2);
-
-  /*      username = (EditText) findViewById(R.id.usuario);
-        Typeface fontusuario = Typeface.createFromAsset(getAssets(), "Balkeno.ttf");
-        username.setTypeface(fontusuario);
-
-        juliocsar = (EditText) findViewById(R.id.julio);
-        Typeface fontjuliocsar = Typeface.createFromAsset(getAssets(), "Balkeno.ttf");
-        juliocsar.setTypeface(fontjuliocsar);
-*/
     }
+
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_main, menu);
+        getMenuInflater().inflate(R.menu.menu_main_activity2, menu);
         return true;
     }
 
@@ -45,6 +33,7 @@ public class MainActivity extends Activity {
         if (id == R.id.action_settings) {
             return true;
         }
+
         return super.onOptionsItemSelected(item);
     }
 }
