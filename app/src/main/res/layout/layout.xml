@@ -11,30 +11,32 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:orientation="horizontal"
         android:gravity="bottom|center"
         android:layout_alignParentBottom="true"
         android:layout_marginBottom="65dp">
         <Button
-            android:layout_width="150dp"
-            android:layout_height="50dp"
+            android:layout_width="290dp"
+            android:layout_height="80dp"
             android:text="Llamar Taxi"
             android:id="@+id/btnCallTaxi"
             android:onClick="sendRequest"
-            android:background="@drawable/asul" />
+            android:background="@drawable/asul"
+            android:layout_margin="2dp" />
         <Button
 
-            android:layout_width="150dp"
-            android:layout_height="50dp"
+            android:layout_width="290dp"
+            android:layout_height="80dp"
             android:text="Cancelar"
             android:background="@drawable/rojo"
-            android:layout_marginLeft="5dp" />
+            android:layout_marginLeft="5dp"
+            android:layout_margin="2dp" />
     </LinearLayout>
 
     <SlidingDrawer
         android:layout_width="match_parent"
-        android:layout_height="fill_parent"
+        android:layout_height="match_parent"
         android:content="@+id/content"
         android:handle="@+id/handle"
         android:id="@+id/slidingDrawer"
@@ -44,8 +46,8 @@
 
         <LinearLayout
             android:id="@+id/content"
-            android:layout_width="fill_parent"
-            android:layout_height="fill_parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:orientation="vertical"
             android:background="#ff747474">
 
@@ -53,26 +55,122 @@
                 android:layout_width="fill_parent"
                 android:layout_height="250dp"
                 android:layout_gravity="center"
-                android:background="@drawable/ic_whats_hot"/>
+                android:background="@drawable/ic_whats_hot"
+                />
             <TextView
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:text="Escribir algo"/>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="63dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/ic_whats_hot"
+
+                    android:layout_marginLeft="10dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="New Text"
+                    android:textColor="@color/abc_primary_text_material_light"
+                    android:textSize="18sp"
+                    android:layout_gravity="center"
+
+                    android:layout_marginLeft="20dp" />
+                </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="63dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/ic_whats_hot"
+
+                    android:layout_marginLeft="10dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="New Text"
+                    android:textColor="@color/abc_primary_text_material_light"
+                    android:textSize="18sp"
+                    android:layout_gravity="center"
+
+                    android:layout_marginLeft="20dp" />
+                </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="63dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/ic_whats_hot"
+
+                    android:layout_marginLeft="10dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="New Text"
+                    android:textColor="@color/abc_primary_text_material_light"
+                    android:textSize="18sp"
+                    android:layout_gravity="center"
+
+                    android:layout_marginLeft="20dp" />
+                </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="63dp"
+                    android:layout_gravity="center"
+                    android:background="@drawable/ic_whats_hot"
+
+                    android:layout_marginLeft="10dp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="New Text"
+                    android:textColor="@color/abc_primary_text_material_light"
+                    android:textSize="18sp"
+                    android:layout_gravity="center"
+
+                    android:layout_marginLeft="20dp" />
+                </LinearLayout>
+
         </LinearLayout>
 
         <LinearLayout
             android:id="@+id/handle"
             android:orientation="horizontal"
             android:background="@drawable/button_layout_principal"
-            android:layout_width="fill_parent"
-            android:layout_height="60dp">
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
 
             <ImageView
                 android:layout_width="50dp"
-                android:layout_height="50dp"
+                android:layout_height="63dp"
                 android:layout_gravity="center"
                 android:background="@drawable/ic_whats_hot"
-                android:id="@+id/imageView"
+
                 android:layout_marginLeft="10dp" />
 
             <TextView
@@ -82,7 +180,7 @@
                 android:textColor="@color/abc_primary_text_material_light"
                 android:textSize="18sp"
                 android:layout_gravity="center"
-                android:id="@+id/textView"
+
                 android:layout_marginLeft="20dp" />
 
         </LinearLayout>

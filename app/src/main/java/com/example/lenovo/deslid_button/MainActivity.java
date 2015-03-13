@@ -1,5 +1,7 @@
 package com.example.lenovo.deslid_button;
 
+
+import android.app.Activity;
 import android.graphics.Typeface;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
@@ -8,7 +10,7 @@ import android.view.MenuItem;
 import android.widget.EditText;
 
 
-public class MainActivity extends ActionBarActivity {
+public class MainActivity extends Activity {
 /*    protected EditText username;
     protected EditText juliocsar;*/
     @Override
