@@ -1,0 +1,99 @@
+<android.support.v4.widget.SlidingPaneLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="bottom"
+    tools:context="com.example.lenovo.deslid_button.MainActivity2">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pane A"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Android-Tu-Papi-Julio"/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height= "match_parent"
+            android:src="@drawable/ic_launcher"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#101010"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pane B"
+            android:textColor="#C0c0c0"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height= "wrap_content"
+            android:src="@drawable/ic_launcher"/>
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#101010"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pane B"
+            android:textColor="#C0c0c0"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height= "wrap_content"
+            android:src="@drawable/ic_launcher"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#101010"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pane B"
+            android:textColor="#C0c0c0"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height= "wrap_content"
+            android:src="@drawable/ic_launcher"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#101010"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pane B"
+            android:textColor="#C0c0c0"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height= "wrap_content"
+            android:src="@drawable/ic_launcher"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#101010"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pane B"
+            android:textColor="#C0c0c0"/>
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height= "wrap_content"
+            android:src="@drawable/ic_launcher"/>
+    </LinearLayout>
+</android.support.v4.widget.SlidingPaneLayout>
