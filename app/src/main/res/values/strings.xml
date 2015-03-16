@@ -7,6 +7,8 @@
     <string name="password">Contraseña</string>
     <string name="one">primero</string >
     <string name="two">segundo</string>
+    <string name="Maincontent">Main Content</string>
+    <string name="slidingpanel">The Awesome Sliding Up Panel</string>
 
 
 </resources>
