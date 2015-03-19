@@ -9,6 +9,7 @@
     <string name="two">segundo</string>
     <string name="Maincontent">Main Content</string>
     <string name="slidingpanel">The Awesome Sliding Up Panel</string>
+    <string name="title_activity_main_activity2">activity2</string>
 
 
 </resources>

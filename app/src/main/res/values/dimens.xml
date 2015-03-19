@@ -8,4 +8,18 @@
         <dimen name="preview_offset_distance">150dp</dimen>
         <dimen name="offset_distance">48dp</dimen>
 
+
+    <!--dimensiones de slider - maps-->
+    <dimen name="layout_bottom_bottom">58dp</dimen>
+    <dimen name="layout_height_slider_maps">60dp</dimen>
+    <dimen name="layout_all_buttom_maps">2dp</dimen>
+
+
+    <dimen name="textsize_button_maps">13sp</dimen>
+    <!--dimensiones interior panel-->
+    <dimen name="widht_image_Taxi">130dp</dimen>
+    <dimen name="height_image_taxi">130dp</dimen>
+    <dimen name="leftmargin_taxi">50dp</dimen>
+    <dimen name="marginTop_layout_taxi">10dp</dimen>
+    <dimen name="textsize_taxi">15sp</dimen>
 </resources>
