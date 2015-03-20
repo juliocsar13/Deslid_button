@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <color name="rojo">#ffff020c</color>
-    <color name="rojoclaro">#ffffb5b7</color>
+    <color name="rojoclaro">#ff137fae</color>
+    <color name="SlidingPaneLayout">#ff137fae</color>
+    <color name="SlidingPaneLayoutBottom">#ffbdb8b5</color>
 
 </resources>
