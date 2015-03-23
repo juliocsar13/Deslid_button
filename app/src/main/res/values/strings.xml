@@ -10,8 +10,7 @@
     <string name="Maincontent">Main Content</string>
     <string name="slidingpanel">Bienvenido  a  AkiTaXi</string>
     <string name="title_activity_main_activity2">activity2</string>
-
-
-
+    <string name="Preview_peticion">Ultima Peticion</string>
+    <string name="changeConvertura">Cambiar Cobertura</string>
 
 </resources>
