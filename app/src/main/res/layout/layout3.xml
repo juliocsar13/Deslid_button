@@ -7,6 +7,11 @@
     android:gravity="bottom"
     sothree:umanoPanelHeight="65dp"
     sothree:umanoShadowHeight="4dp">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
     <LinearLayout
         android:layout_width="fill_parent"
         android:layout_height="match_parent"
@@ -15,7 +20,7 @@
         android:gravity="bottom|center"
         android:layout_marginBottom="0dp">
         <Button
-            android:layout_width="150dp"
+            android:layout_width="295dp"
             android:layout_height="60dp"
             android:text="Llamar Taxi"
             android:id="@+id/btnCallTaxi"
@@ -25,7 +30,7 @@
             android:layout_margin="@dimen/layout_all_buttom_maps"
             android:textSize="@dimen/textsize_button_maps" />
         <Button
-            android:layout_width="150dp"
+            android:layout_width="295dp"
             android:layout_height="60dp"
             android:text="Cancelar taxi"
             android:background="@drawable/rojo"
@@ -33,12 +38,12 @@
             android:onClick="cancelRequest"
             android:textColor="#ff000000"
             android:layout_margin="@dimen/layout_all_buttom_maps"
-            android:textSize="@dimen/textsize_button_maps" />
+            android:textSize="@dimen/textsize_button_maps"/>
     </LinearLayout>
+</LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:gravity="center|top"
         android:orientation="vertical"
         android:background="#ffffff">
     <LinearLayout
@@ -56,23 +61,74 @@
             android:src="@drawable/ic_action_user"
             android:layout_margin="2dp"/>
         <TextView
+
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="3dp"
             android:textColor="#ffffff"
             android:text="@string/slidingpanel"
             android:textSize="16sp"/>
-        </LinearLayout>
 
+    </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_gravity="center_horizontal">
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:gravity="center"
-            android:text="TU PAPI JULIO"/>
+        <ImageView
+            android:layout_width="@dimen/widht_image_Taxi"
+            android:layout_height="@dimen/height_image_taxi"
+            android:background="@drawable/ic_action_user_two"
+            android:layout_marginTop="13dp"/>
+        <!--DATOS DEL TAXISTA NOMBRE Y APELLIDO-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="10dp">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_launcher"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Nombre y Apellido"
+                android:textSize="15sp"/>
+
+        </LinearLayout>
+        <!--DATOS DEL TAXISTA placa del taxisata-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_launcher"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="numero cel" />
+        </LinearLayout>
+
+        <!--DATOS DEL TAXISTA NUMERO-->
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/ic_launcher" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="numero de placa" />
+        </LinearLayout>
         </LinearLayout>
     </LinearLayout>
+
 </com.sothree.slidinguppanel.SlidingUpPanelLayout>
