@@ -16,7 +16,7 @@ public class MainActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.layout3);
+        setContentView(R.layout.layout6);
 
   /*      username = (EditText) findViewById(R.id.usuario);
         Typeface fontusuario = Typeface.createFromAsset(getAssets(), "Balkeno.ttf");
